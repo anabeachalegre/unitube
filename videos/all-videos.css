@@ -1,0 +1,207 @@
+/* Reseting Browser CSS Properties */
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/* Header */
+/* Header Container */
+.header-container {
+    background-color: #ffc8dd;
+    height: 168px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    column-gap: 10px;
+
+}
+
+/* Logo, Main Top Header and Search Containers */
+.logo,
+.main-top-header,
+.search-style {
+    width: 100%;
+    height: 168px;
+    align-items: center;
+}
+
+/* Logo Container  */
+.logo {
+    grid-column: 1/2;
+}
+
+/* Resizing logo */
+.logo img {
+    position: absolute;
+    left: 191px;
+    top: 0;
+    width: 180px;
+
+}
+
+/* Main Top Header Container */
+.main-top-header {
+    grid-column: 2/6;
+
+}
+
+.main-top-header h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 100px;
+    height: 33px;
+    text-shadow: 2px 2px 8px #ffafcc;
+    color: white;
+
+}
+
+/* Search Bar Container  */
+.search-style {
+    grid-column: 6/6;
+}
+
+.search-style {
+    background-color: white;
+    width: 254px;
+    height: 33px;
+    display: flex;
+    position: absolute;
+    flex-direction: row;
+    top: 62px;
+    right: 50px;
+    border-radius: 20px;
+
+
+}
+
+.search-style form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'QuickSand', sans-serif;
+    padding: 10px;
+}
+
+.search-style input {
+    all: unset;
+    width: 100%;
+    height: 100%;
+
+
+
+}
+
+.search-style button {
+    all: unset;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+}
+
+.search-style::placeholder {
+    text-align: center;
+}
+
+/* Styling Video Container */
+.video-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.video-title h1 {
+    font-family: 'QuickSand', sans-serif;
+    font-size: 35px;
+}
+
+.video-player {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+.video-details h4 {
+    position: relative;
+    font-family: 'QuickSand', sans-serif;
+    width: 950px;
+    left: 549px;
+    margin-top: 52px;
+    font-size: 25px;
+}
+
+
+.author-and-date td {
+    position: relative;
+    font-family: 'QuickSand', sans-serif;
+    font-size: 20px;
+    left: 549px;
+    padding-right: 30px;
+
+}
+
+.video-description p {
+    position: relative;
+    font-family: 'QuickSand', sans-serif;
+    text-align: justify;
+    font-size: 20px;
+    left: 549px;
+    overflow-wrap: break-word;
+    inline-size: 1292px;
+}
+
+.button {
+
+    padding: 15px 30px;
+    border: none;
+    background-color: #a2d2ff;
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 16px;
+
+    text-align: center;
+
+    font-family: 'Quicksand', sans-serif;
+    font-weight: bold;
+    position: absolute;
+    top: 263px;
+    left: 162px;
+}
+
+.button:hover {
+    background-color: #cdb4db;
+    transform: translateY(-2px);
+}
+
+
+
+
+/* Styling footer */
+.footer-container {
+    background-color: pink;
+    padding: 20px;
+}
+
+.links,
+.footer-container p {
+    font-family: 'QuickSand', sans-serif;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+
+}
+
+.links a {
+    text-decoration: none;
+    color: black;
+    padding-right: 10px;
+    padding-top: 15px;
+}
+
+.footer-container p {
+    margin-top: 20px;
+}
